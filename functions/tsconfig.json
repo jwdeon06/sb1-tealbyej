@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2017",
+    "skipLibCheck": true,
+    "noUnusedLocals": false, // Allow unused variables
+    "noUnusedParameters": false, // Allow unused function parameters
+    "noImplicitAny": false, // Allow implicit any type
+    "skipLibCheck": true, // Skip type checking for dependencies
+    "noEmitOnError": false // Allow build even if there are errors
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ]
+}
